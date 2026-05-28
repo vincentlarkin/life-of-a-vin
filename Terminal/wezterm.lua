@@ -1,0 +1,35 @@
+return {
+  color_schemes = {
+    ["Life of a VIN"] = {
+      foreground = "#E7D7B5",
+      background = "#030202",
+      cursor_bg = "#D4A967",
+      cursor_fg = "#030202",
+      cursor_border = "#D4A967",
+      selection_fg = "#F0DEC0",
+      selection_bg = "#65090A",
+      ansi = {
+        "#050505",
+        "#A41212",
+        "#39B34A",
+        "#B08A57",
+        "#7A6F63",
+        "#9B6D58",
+        "#8C8A78",
+        "#E7D7B5",
+      },
+      brights = {
+        "#2A2521",
+        "#FF443D",
+        "#62D06C",
+        "#D4A967",
+        "#B2A287",
+        "#C79A5C",
+        "#D0C0A1",
+        "#F0DEC0",
+      },
+    },
+  },
+  color_scheme = "Life of a VIN",
+  window_background_opacity = 0.96,
+}

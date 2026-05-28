@@ -1,0 +1,11 @@
+# Local maintainer notes
+.local/
+LOCAL_NOTES.md
+*.local.md
+
+# Common local/editor/build noise
+.DS_Store
+Thumbs.db
+node_modules/
+dist/
+build/

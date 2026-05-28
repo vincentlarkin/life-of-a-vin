@@ -1,0 +1,19 @@
+Life of a VIN Terminal Preview
+
+Base:       #030202  obsidian background
+Text:       #E7D7B5  champagne cream foreground
+Prompt:     #D4A967  DON gold
+Command:    #F0DEC0  bright cream
+Error:      #FF443D  signal red
+Warning:    #B08A57  antique gold
+Success:    #39B34A  restrained system green
+Selection:  #65090A  deep crimson
+
+Suggested prompt rhythm:
+
+  gold path  cream command  crimson error  green success
+
+Example:
+
+  ~/project  ./gradlew test
+  BUILD SUCCESSFUL

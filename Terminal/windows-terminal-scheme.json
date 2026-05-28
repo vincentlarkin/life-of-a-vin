@@ -1,0 +1,23 @@
+{
+  "name": "Life of a VIN",
+  "background": "#030202",
+  "foreground": "#E7D7B5",
+  "cursorColor": "#D4A967",
+  "selectionBackground": "#65090A",
+  "black": "#050505",
+  "red": "#A41212",
+  "green": "#39B34A",
+  "yellow": "#B08A57",
+  "blue": "#7A6F63",
+  "purple": "#9B6D58",
+  "cyan": "#8C8A78",
+  "white": "#E7D7B5",
+  "brightBlack": "#2A2521",
+  "brightRed": "#FF443D",
+  "brightGreen": "#62D06C",
+  "brightYellow": "#D4A967",
+  "brightBlue": "#B2A287",
+  "brightPurple": "#C79A5C",
+  "brightCyan": "#D0C0A1",
+  "brightWhite": "#F0DEC0"
+}

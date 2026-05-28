@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lov_obsidian">#030202</color>
+    <color name="lov_velvet_black">#090706</color>
+    <color name="lov_carbon_veil">#11100E</color>
+    <color name="lov_blood_velvet">#7F0D0D</color>
+    <color name="lov_brake_light">#A41212</color>
+    <color name="lov_signal_red">#FF443D</color>
+    <color name="lov_antique_gold">#B08A57</color>
+    <color name="lov_don_gold">#D4A967</color>
+    <color name="lov_tarnished_gold">#5D4015</color>
+    <color name="lov_champagne_cream">#E7D7B5</color>
+    <color name="lov_smoke_taupe">#9D8D78</color>
+    <color name="lov_success">#39B34A</color>
+</resources>

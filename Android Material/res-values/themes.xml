@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.LifeOfAVin" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:fontFamily">serif</item>
+        <item name="colorPrimary">@color/lov_don_gold</item>
+        <item name="colorOnPrimary">@color/lov_obsidian</item>
+        <item name="colorPrimaryContainer">@color/lov_tarnished_gold</item>
+        <item name="colorOnPrimaryContainer">@color/lov_champagne_cream</item>
+        <item name="colorSecondary">@color/lov_antique_gold</item>
+        <item name="colorOnSecondary">@color/lov_obsidian</item>
+        <item name="colorTertiary">@color/lov_brake_light</item>
+        <item name="colorOnTertiary">@color/lov_champagne_cream</item>
+        <item name="colorError">@color/lov_signal_red</item>
+        <item name="colorOnError">@color/lov_obsidian</item>
+        <item name="android:colorAccent">@color/lov_brake_light</item>
+        <item name="android:windowBackground">@color/lov_obsidian</item>
+        <item name="android:navigationBarColor">@color/lov_obsidian</item>
+        <item name="android:statusBarColor">@color/lov_obsidian</item>
+    </style>
+</resources>

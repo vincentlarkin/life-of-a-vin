@@ -1,0 +1,116 @@
+{
+  "name": "Life of a VIN",
+  "version": "0.1.0",
+  "description": "Luxury gothic theme tokens for the Life of a VIN system.",
+  "styleGuide": "Style Guide/life-of-a-don-style-guide.md",
+  "aesthetic": {
+    "mood": "luxury gothic",
+    "keywords": [
+      "black velvet",
+      "crimson shadow",
+      "antique gold",
+      "cream serif",
+      "gold frame",
+      "ceremonial dashboard"
+    ],
+    "influences": [
+      "Life of a VIN web theme",
+      "Life of a DON era luxury gothic mood"
+    ]
+  },
+  "color": {
+    "black": { "value": "#050505" },
+    "blackSoft": { "value": "#0b0b0b" },
+    "panel": { "value": "rgba(7, 7, 7, 0.78)" },
+    "panelStrong": { "value": "rgba(5, 5, 5, 0.92)" },
+    "cream": { "value": "#e7d7b5" },
+    "creamMuted": { "value": "rgba(231, 215, 181, 0.68)" },
+    "gold": { "value": "#b08a57" },
+    "goldBright": { "value": "#c79a5c" },
+    "goldDeep": { "value": "#5d4015" },
+    "crimson": { "value": "#a41212" },
+    "crimsonDeep": { "value": "#7f0d0d" },
+    "crimsonGlow": { "value": "#5a0a0a" },
+    "redSignal": { "value": "#ff443d" },
+    "line": { "value": "rgba(176, 138, 87, 0.42)" },
+    "lineStrong": { "value": "rgba(176, 138, 87, 0.62)" },
+    "success": { "value": "#39b34a" },
+    "linkArchive": { "value": "#d59b4a" }
+  },
+  "variants": {
+    "don": {
+      "className": "lov-theme--don",
+      "description": "Darker album-facing variant with hotter crimson, deeper black, and brighter antique gold.",
+      "color": {
+        "black": { "value": "#030202" },
+        "blackSoft": { "value": "#090706" },
+        "panel": { "value": "rgba(8, 5, 4, 0.82)" },
+        "panelStrong": { "value": "rgba(4, 3, 3, 0.94)" },
+        "cream": { "value": "#f0dec0" },
+        "goldBright": { "value": "#d4a967" },
+        "goldDeep": { "value": "#4d330f" },
+        "crimsonDeep": { "value": "#65090a" },
+        "crimsonGlow": { "value": "#3f0506" },
+        "line": { "value": "rgba(212, 169, 103, 0.38)" },
+        "lineStrong": { "value": "rgba(212, 169, 103, 0.64)" }
+      }
+    }
+  },
+  "typography": {
+    "display": {
+      "family": "Georgia, Times New Roman, serif",
+      "weight": 600,
+      "letterSpacing": "0.14em"
+    },
+    "body": {
+      "family": "Palatino Linotype, Palatino, Georgia, serif",
+      "weight": 400,
+      "lineHeight": 1.7
+    },
+    "mono": {
+      "family": "Consolas, Monaco, Lucida Console, monospace",
+      "weight": 400,
+      "letterSpacing": "0.12em"
+    },
+    "script": {
+      "family": "Palatino Linotype, Georgia, serif",
+      "style": "italic",
+      "weight": 400
+    }
+  },
+  "shape": {
+    "radius": {
+      "none": "0",
+      "tiny": "2px"
+    },
+    "borderWidth": {
+      "hairline": "1px",
+      "frame": "1px"
+    }
+  },
+  "space": {
+    "xs": "0.35rem",
+    "sm": "0.65rem",
+    "md": "1rem",
+    "lg": "1.5rem",
+    "xl": "2rem",
+    "xxl": "3rem"
+  },
+  "effect": {
+    "panelShadow": "inset 0 0 0 1px rgba(199, 154, 92, 0.1), 0 18px 60px rgba(0, 0, 0, 0.44), 0 0 38px rgba(90, 10, 10, 0.16)",
+    "goldGlow": "0 0 22px rgba(199, 154, 92, 0.28)",
+    "crimsonGlow": "0 0 24px rgba(164, 18, 18, 0.28)",
+    "grain": "repeating-radial-gradient(circle at 50% 50%, rgba(231, 215, 181, 0.035) 0 1px, transparent 1px 4px)"
+  },
+  "asset": {
+    "background": "HTML CSS/assets/life-of-a-vin/background.webp"
+  },
+  "usageRules": [
+    "Use square or near-square corners, not soft rounded cards.",
+    "Do not use ornate corner assets until the system has a reusable non-fragile method for them.",
+    "Use antique gold lines for structure and crimson only for emphasis, warnings, and active states.",
+    "Prefer serif display/body type with a mono accent for small labels and action text.",
+    "Frame important content with thin borders, inset highlights, and controlled shadow.",
+    "Keep backgrounds dark, textured, and atmospheric without reducing text contrast."
+  ]
+}
