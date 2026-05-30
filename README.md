@@ -21,6 +21,7 @@ design-token pipelines.
 | `Style Guide/` | Ongoing design sheet for the Life of a DON/Life of a VIN mood, palette, rules, and motif analysis. |
 | `HTML CSS/` | Drop-in HTML/CSS implementation for websites and static prototypes. |
 | `Android Material/` | Material 3 Android theme starter for Compose and XML/View apps. |
+| `Linux/` | IceWM desktop theme derived from CrystalBlue and recolored into the Life of a VIN palette. |
 | `Terminal/` | Terminal color schemes for Windows Terminal, WezTerm, and Alacritty. |
 | `Images/Concepts/` | Concept references for the theme direction. |
 
@@ -34,7 +35,8 @@ The HTML/CSS kit includes:
 - `assets/life-of-a-vin/`: background asset for the crimson shadow treatment.
 
 Additional kits include Android Material resources for app interfaces and
-terminal palettes for developer environments.
+terminal palettes for developer environments. The Linux kit includes a
+drop-in IceWM theme under `Linux/icewm/themes/LifeOfAVIN/`.
 
 ## Source Notes
 

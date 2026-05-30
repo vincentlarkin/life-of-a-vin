@@ -1,0 +1,158 @@
+ThemeAuthor=                            "Life of a VIN; derived from CrystalBlue by BlueScorpio_7"
+ThemeDescription=                       "LifeOfAVIN"
+License=                                "GPL"
+
+Look=                                   "flat"
+Gradients=                              "menubg.xpm menusel.xpm dialogbg.xpm workspacebuttonbg.xpm workspacebuttonactive.xpm buttonA.xpm buttonI.xpm"
+
+# Buttons
+RolloverButtonsSupported=               1
+TitleButtonsSupported=                  "xmirs"
+TitleButtonsLeft=                       "r"
+TitleButtonsRight=                      "xmi"
+
+TaskBarClockLeds=                       1
+TrayDrawBevel=                          0
+
+# Borders
+BorderSizeX=                            5
+BorderSizeY=                            5
+DlgBorderSizeX=                         5
+DlgBorderSizeY=                         5
+CornerSizeX=                            24
+CornerSizeY=                            24
+TitleBarHeight=                         25
+TitleBarJustify=                        50
+TitleBarVertOffset=                     -2
+ScrollBarX=                             16
+ScrollBarY=                             16
+
+# Icons
+MenuIconSize=                           16
+SmallIconSize=                          16
+LargeIconSize=                          32
+HugeIconSize=                           48
+
+# DialogBox
+ColorDialog=                            "rgb:09/07/06"
+ColorDialogSelectionText=               "rgb:03/02/02"
+
+# Taskbar
+TaskbuttonIconOffset=                   10
+ColorDefaultTaskBar=                    "rgb:03/02/02"
+ColorToolButton=                        "rgb:09/07/06"
+ColorToolButtonText=                    "rgb:E7/D7/B5"
+ColorActiveButton=                      "rgb:7F/0D/0D"
+ColorNormalButton=                      "rgb:09/07/06"
+ColorNormalWorkspaceButton=             "rgb:09/07/06"
+ColorNormalWorkspaceButtonText=         "rgb:E7/D7/B5"
+
+ColorActiveWorkspaceButton=             "rgb:B0/8A/57"
+ColorActiveWorkspaceButtonText=         "rgb:03/02/02"
+ColorNormalButtonText=                  "rgb:E7/D7/B5"
+ColorActiveButtonText=                  "rgb:F0/DE/C0"
+ColorActiveTaskBarApp=                  "rgb:7F/0D/0D"
+ColorActiveTaskBarAppText=              "rgb:F0/DE/C0"
+
+ColorMinimizedTaskBarApp=               "rgb:09/07/06"
+ColorMinimizedTaskBarAppText=           "rgb:9D/8D/78"
+ColorNormalTaskBarApp=                  "rgb:09/07/06"
+ColorNormalTaskBarAppText=              "rgb:E7/D7/B5"
+ColorInvisibleTaskBarAppText=           "rgb:5D/40/15"
+
+# Menu
+ColorActiveMenu=                        "rgb:7F/0D/0D"
+ColorActiveMenuItem=                    "rgb:7F/0D/0D"
+ColorNormalMenu=                        "rgb:09/07/06"
+ColorNormalMenuItem=                    "rgb:09/07/06"
+ColorNormalMenuItemText=                "rgb:E7/D7/B5"
+ColorActiveMenuItemText=                "rgb:F0/DE/C0"
+ColorDisabledMenuItemText=              "rgb:5D/40/15"
+ColorDisabledMenuItemShadow=            "rgb:00/00/00"
+
+# TitleBox
+ColorNormalBorder=                      "rgb:5D/40/15"
+ColorActiveBorder=                      "rgb:B0/8A/57"
+ColorNormalTitleBarText=                "rgb:9D/8D/78"
+ColorActiveTitleBarText=                "rgb:F0/DE/C0"
+ColorNormalTitleBarShadow=              "rgb:03/02/02"
+ColorActiveTitleBarShadow=              "rgb:03/02/02"
+
+# Move
+ColorMoveSizeStatus=                    "rgb:7F/0D/0D"
+ColorMoveSizeStatusText=                "rgb:F0/DE/C0"
+
+# Tooltip
+ColorToolTip=                           "rgb:09/07/06"
+ColorToolTipText=                       "rgb:E7/D7/B5"
+
+# QuickSwitch
+ColorQuickSwitch=                       "rgb:09/07/06"
+ColorQuickSwitchText=                   "rgb:E7/D7/B5"
+
+# ListBox
+ColorListBox=                           "rgb:09/07/06"
+ColorListBoxText=                       "rgb:E7/D7/B5"
+ColorListBoxSelection=                  "rgb:B0/8A/57"
+ColorListBoxSelectionText=              "rgb:03/02/02"
+
+# Label
+ColorLabel=                             "rgb:09/07/06"
+ColorLabelText=                         "rgb:E7/D7/B5"
+
+# Clock
+ColorClock=                             "rgb:09/07/06"
+ColorClockText=                         "rgb:E7/D7/B5"
+
+# CPUMonitor
+ColorCPUStatusIdle=                     "rgb:03/02/02"
+ColorCPUStatusUser=                     "rgb:A4/12/12"
+ColorCPUStatusSystem=                   "rgb:D4/A9/67"
+ColorCPUStatusInterrupts=               "rgb:FF/44/3D"
+ColorCPUStatusIoWait=                   "rgb:F0/DE/C0"
+ColorCPUStatusSoftIrq=                  "rgb:B0/8A/57"
+ColorCPUStatusNice=                     "rgb:9D/8D/78"
+
+# Net
+ColorNetIdle=                           "rgb:03/02/02"
+ColorNetSend=                           "rgb:D4/A9/67"
+ColorNetReceive=                        "rgb:A4/12/12"
+
+# APM
+ColorApm=                               "rgb:09/07/06"
+ColorApmText=                           "rgb:E7/D7/B5"
+
+# Memory Manager
+ColorMEMStatusFree=                     "rgb:03/02/02"
+ColorMEMStatusCached=                   "rgb:D4/A9/67"
+ColorMEMStatusUser=                     "rgb:A4/12/12"
+ColorMEMStatusBuffers=                  "rgb:00/00/00"
+
+# Input
+ColorInput=                             "rgb:03/02/02"
+ColorInputText=                         "rgb:E7/D7/B5"
+ColorInputSelection=                    "rgb:7F/0D/0D"
+ColorInputSelectionText=                "rgb:F0/DE/C0"
+
+# ScrollBar
+ColorScrollBar=                         "rgb:09/07/06"
+ColorScrollBarButton=                   "rgb:B0/8A/57"
+ColorScrollBarSlider=                   "rgb:7F/0D/0D"
+ColorScrollBarArrow=                    "rgb:E7/D7/B5"
+ColorScrollBarButtonArrow=              "rgb:03/02/02"
+ColorScrollBarInactiveArrow=            "rgb:5D/40/15"
+
+# Fonts
+TitleFontNameXft=                       "sans-serif:size=8"
+StatusFontNameXft=                      "sans-serif:size=8:bold"
+MenuFontNameXft=                        "sans-serif:size=8:bold"
+NormalTaskBarFontNameXft=               "sans-serif:size=8:bold"
+ActiveTaskBarFontNameXft=               "sans-serif:size=8:bold"
+ListBoxFontNameXft=                     "sans-serif:size=8:bold"
+ToolTipFontNameXft=                     "sans-serif:size=9:bold"
+QuickSwitchFontNameXft=                 "sans-serif:size=10:bold"
+ClockFontNameXft=                       "sans-serif:size=8:bold"
+
+# Desktop
+DesktopBackgroundColor=                 "rgb:03/02/02"
+DesktopTransparencyColor=               "rgb:03/02/02"
