@@ -23,8 +23,8 @@ Authoritative files:
 - Keep installable theme directories named `LifeOfAVIN-Modern` and
   `LifeOfAVIN-Classic`.
 - Keep the default selector file as `Theme="LifeOfAVIN-Modern/default.theme"`.
-- Keep the installer defaulting to modern, with `classic` as the alternate
-  argument.
+- Keep the installer default run installing both variants and selecting modern.
+  Keep `modern` and `classic` as explicit single-theme install arguments.
 - Use IceWM theme syntax: `Option= "Value"` or `Option= value`.
 - Keep the theme simple and old-school. Prefer flat IceWM geometry, hard edges,
   small fonts, and small XPM assets over modern effects.
@@ -44,5 +44,5 @@ rg -n "machine path|local-only|abandoned|backup" Linux
 sh -n Linux/install-icewm.sh
 ```
 
-If IceWM is available on the target machine, test both `sh Linux/install-icewm.sh`
-and `sh Linux/install-icewm.sh classic`.
+If IceWM is available on the target machine, test `sh Linux/install-icewm.sh`,
+`sh Linux/install-icewm.sh modern`, and `sh Linux/install-icewm.sh classic`.

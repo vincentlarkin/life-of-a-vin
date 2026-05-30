@@ -14,10 +14,18 @@ Linux/icewm/themes/LifeOfAVIN-Modern/default.theme
 Linux/icewm/themes/LifeOfAVIN-Classic/default.theme
 ```
 
-Install the modern theme for one user:
+Install both themes for one user:
 
 ```sh
 sh Linux/install-icewm.sh
+```
+
+The default run installs both variants and selects `LifeOfAVIN-Modern`.
+
+Install and select only the modern theme:
+
+```sh
+sh Linux/install-icewm.sh modern
 ```
 
 Install the classic theme:
@@ -53,11 +61,11 @@ button, menu, and frame assets rather than large artwork. The original palette
 is blue chrome with gray bevel highlights; this kit preserves the same asset
 roles and geometry while changing only the color system.
 
-`LifeOfAVIN-Classic` is based on IceWM's default `icedesert` theme. icedesert
-uses `Look=pixmap`, a 20px titlebar, 4px frame borders, 2px dialog borders, and
-a much smaller set of title/button pixmaps. The original beige desert palette is
-reworked into black, crimson, gold, and cream while preserving the compact
-classic IceWM feel.
+`LifeOfAVIN-Classic` is based on IceWM's default `icedesert` theme and mirrors
+it closely: `Look=pixmap`, a 20px titlebar, 4px frame borders, 2px dialog
+borders, `TitleButtonsSupported="xmis"`, and the same compact title/button
+pixmap set. The original beige desert palette is reworked into black, crimson,
+gold, and cream while preserving the boxy classic IceWM feel.
 
 ## Source And License
 
