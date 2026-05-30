@@ -23,10 +23,14 @@ case "$variant" in
 esac
 
 script_dir=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
-target_base="${XDG_CONFIG_HOME:-$HOME/.icewm}/icewm"
 
-if [ "${XDG_CONFIG_HOME:-}" = "" ]; then
+if [ "${XDG_CONFIG_HOME:-}" != "" ]; then
+  target_base="$XDG_CONFIG_HOME/icewm"
+elif [ "${HOME:-}" != "" ]; then
   target_base="$HOME/.icewm"
+else
+  echo "HOME is not set; cannot determine IceWM config directory." >&2
+  exit 1
 fi
 
 target_themes="$target_base/themes"
