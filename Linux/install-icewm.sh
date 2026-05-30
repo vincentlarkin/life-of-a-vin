@@ -1,7 +1,21 @@
 #!/bin/sh
 set -eu
 
-theme_name="LifeOfAVIN"
+variant="${1:-modern}"
+
+case "$variant" in
+  modern|Modern)
+    theme_name="LifeOfAVIN-Modern"
+    ;;
+  classic|Classic)
+    theme_name="LifeOfAVIN-Classic"
+    ;;
+  *)
+    echo "Usage: sh Linux/install-icewm.sh [modern|classic]" >&2
+    exit 1
+    ;;
+esac
+
 script_dir=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
 source_dir="$script_dir/icewm/themes/$theme_name"
 target_base="${XDG_CONFIG_HOME:-$HOME/.icewm}/icewm"

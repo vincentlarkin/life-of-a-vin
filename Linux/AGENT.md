@@ -13,18 +13,25 @@ Authoritative files:
 - `README.md`
 - `install-icewm.sh`
 - `icewm/theme`
-- `icewm/themes/LifeOfAVIN/default.theme`
-- `icewm/themes/LifeOfAVIN/*.xpm`
+- `icewm/themes/LifeOfAVIN-Modern/default.theme`
+- `icewm/themes/LifeOfAVIN-Classic/default.theme`
+- `icewm/themes/LifeOfAVIN-Modern/*.xpm`
+- `icewm/themes/LifeOfAVIN-Classic/*.xpm`
 
 ## IceWM Rules
 
-- Keep the installable theme directory named `LifeOfAVIN`.
-- Keep the selector file as `Theme="LifeOfAVIN/default.theme"`.
+- Keep installable theme directories named `LifeOfAVIN-Modern` and
+  `LifeOfAVIN-Classic`.
+- Keep the default selector file as `Theme="LifeOfAVIN-Modern/default.theme"`.
+- Keep the installer defaulting to modern, with `classic` as the alternate
+  argument.
 - Use IceWM theme syntax: `Option= "Value"` or `Option= value`.
 - Keep the theme simple and old-school. Prefer flat IceWM geometry, hard edges,
   small fonts, and small XPM assets over modern effects.
 - Map colors back to `Tokens/life-of-a-vin.json`: black/near-black surfaces,
   crimson active states, antique gold bevels and borders, cream text.
+- Keep `DesktopBackgroundColor` and `DesktopTransparencyColor` as solid reddish
+  hues, not black.
 - Blue and cyan should not become dominant unless a Linux target requires them.
 
 ## Validation
@@ -37,5 +44,5 @@ rg -n "machine path|local-only|abandoned|backup" Linux
 sh -n Linux/install-icewm.sh
 ```
 
-If IceWM is available on the target machine, install the theme into
-`~/.icewm/themes/LifeOfAVIN`, set `~/.icewm/theme`, and restart with `icewm -r`.
+If IceWM is available on the target machine, test both `sh Linux/install-icewm.sh`
+and `sh Linux/install-icewm.sh classic`.

@@ -1,6 +1,6 @@
 # Origin
 
-`LifeOfAVIN` is derived from IceWM's `CrystalBlue` theme.
+`LifeOfAVIN-Modern` is derived from IceWM's `CrystalBlue` theme.
 
 - Upstream project: https://github.com/ice-wm/icewm
 - Upstream source path: `lib/themes/CrystalBlue`

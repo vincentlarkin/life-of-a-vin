@@ -7,44 +7,60 @@ simple square frame geometry.
 
 ## IceWM
 
-Theme path:
+Theme paths:
 
 ```text
-Linux/icewm/themes/LifeOfAVIN/default.theme
+Linux/icewm/themes/LifeOfAVIN-Modern/default.theme
+Linux/icewm/themes/LifeOfAVIN-Classic/default.theme
 ```
 
-Install for one user:
+Install the modern theme for one user:
 
 ```sh
 sh Linux/install-icewm.sh
 ```
 
-Manual install:
+Install the classic theme:
+
+```sh
+sh Linux/install-icewm.sh classic
+```
+
+Manual modern install:
 
 ```sh
 mkdir -p ~/.icewm/themes
-rm -rf ~/.icewm/themes/LifeOfAVIN
-cp -R Linux/icewm/themes/LifeOfAVIN ~/.icewm/themes/
-printf 'Theme="LifeOfAVIN/default.theme"\n' > ~/.icewm/theme
+rm -rf ~/.icewm/themes/LifeOfAVIN-Modern
+cp -R Linux/icewm/themes/LifeOfAVIN-Modern ~/.icewm/themes/
+printf 'Theme="LifeOfAVIN-Modern/default.theme"\n' > ~/.icewm/theme
 icewm -r
 ```
 
-The theme is based on IceWM's `CrystalBlue` theme structure. It keeps the same
-dead-simple flat look, 5px frame borders, 25px titlebar, title buttons, and XPM
-window-decoration assets, then recolors those assets into the Life of a VIN
-palette from `Tokens/life-of-a-vin.json`.
+Both themes use a solid deep crimson desktop background color:
+`rgb:3F/05/06`.
 
-## CrystalBlue Analysis
+## Theme Analysis
 
-CrystalBlue is a compact classic IceWM theme. Its `default.theme` uses
+`LifeOfAVIN-Modern` is based on IceWM's `CrystalBlue` theme structure. It keeps
+the same dead-simple flat look, 5px frame borders, 25px titlebar, title buttons,
+and XPM window-decoration assets, then recolors those assets into the Life of a
+VIN palette from `Tokens/life-of-a-vin.json`.
+
+CrystalBlue is a compact IceWM theme. Its `default.theme` uses
 `Look="flat"`, small bold sans-serif fonts, 16px menu icons, 5px frame borders,
 and 24px corners. Most of the visual character comes from small XPM titlebar,
 button, menu, and frame assets rather than large artwork. The original palette
 is blue chrome with gray bevel highlights; this kit preserves the same asset
 roles and geometry while changing only the color system.
 
+`LifeOfAVIN-Classic` is based on IceWM's default `icedesert` theme. icedesert
+uses `Look=pixmap`, a 20px titlebar, 4px frame borders, 2px dialog borders, and
+a much smaller set of title/button pixmaps. The original beige desert palette is
+reworked into black, crimson, gold, and cream while preserving the compact
+classic IceWM feel.
+
 ## Source And License
 
-`LifeOfAVIN` is a modified theme derived from the IceWM `CrystalBlue` theme by
-BlueScorpio_7. CrystalBlue declares `License="GPL"` in its theme file, so this
-derived IceWM theme is distributed as GPL-compatible theme material.
+`LifeOfAVIN-Modern` is modified from IceWM `CrystalBlue` by BlueScorpio_7.
+`LifeOfAVIN-Classic` is modified from IceWM `icedesert` by Nehal Mistry. These
+derived IceWM themes are distributed as GPL-compatible theme material.

@@ -1,5 +1,5 @@
 ThemeAuthor=                            "Life of a VIN; derived from CrystalBlue by BlueScorpio_7"
-ThemeDescription=                       "LifeOfAVIN"
+ThemeDescription=                       "LifeOfAVIN Modern"
 License=                                "GPL"
 
 Look=                                   "flat"
@@ -154,5 +154,5 @@ QuickSwitchFontNameXft=                 "sans-serif:size=10:bold"
 ClockFontNameXft=                       "sans-serif:size=8:bold"
 
 # Desktop
-DesktopBackgroundColor=                 "rgb:03/02/02"
-DesktopTransparencyColor=               "rgb:03/02/02"
+DesktopBackgroundColor=                 "rgb:3F/05/06"
+DesktopTransparencyColor=               "rgb:3F/05/06"
